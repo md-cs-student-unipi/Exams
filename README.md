@@ -15,7 +15,70 @@ Collection of oral questions and exam material
 
 
 ## ADVANCED PROGRAMMING
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+<details>
+  <summary>:us: 2018-19</summary>
+
+Topic chosen by the student: Python (almost all, excluding GIL)
+
+Questions on the assignments
+- Given a bean, how can we tell what is its public API?
+- Question about complexity of some haskell function. What are the problems between arrays and generics in Java? What happens with generic at runtime/after compilation?
+- Is Python more OO or more functional, according to your opinion?
+
+Questions on the syllabus
+- Explain the concept (with written example) of covariance and contravariance in a language with universal polymorphism and explain in what cases their use is safe
+- Explain inversion of control and dependecy injection
+- What is lazy evalutaion in haskell and explain the spirit of IO Monads
+
+------------------------------
+
+Topic chosen by the student: lambda expressions in Java
+
+Questions on Java
+- What are streams in java?
+- Example of lambdas in a context different from streams
+- What are functional interfaces?
+- How the java compiler manges lambdas?
+- Differences between component, packages and classes
+- Talk about the lifecycle of a sw component
+- How can we interact with java beans?
+- How can Netbeans (or another builder tool) provides "live interaction" with a bean?
+- What kind of properties a bean can have?
+
+Questions on Haskell
+- What is "Functor" in haskell?
+- What relationships there are between functor and maybe type class?
+- Lazyness in haskell
+
+Question on Python
+- What are python decorator?
+- How can we write functions with a variable number of arguments
+
+Other questions
+- Describe the different kind of parameter passing strategies
+- What is memoization?
+
+------------------------------
+
+Topic chosen by the student: JVM internals and JVM instruction set.  
+_For this exam, most of the questions were asked during the presentation of the topic chosen by the student._
+
+Questions on Java
+- Memory management
+- How are lambda expressions implemented?
+- Talk about streams
+
+Question on Python
+- What is GIL?
+- Talk about decorators and higher order functions in general
+- Namespaces and scopes
+- What does the "@staticmethod" decorator do?
+
+Other questions
+- Differences between "reduce" in functional programming and "collect" in the Java Stream API
+- Give an example of list comprehension and write a function using a functional language that does the same thing, using combinators such as filter, foldr, map ecc
+
+</details>
 
 
 ## ADVANCED SOFTWARE ENGINEERING
@@ -91,7 +154,30 @@ Collection of oral questions and exam material
 
 
 ## MACHINE LEARNING
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+<details>
+  <summary>:us: 2019-20</summary>
+
+- Write the loss for a linear model in form of ridge regression (with Tikhonov regularization)
+- Write (and briefly comment on) the most important factors ruling the flexibility of the SVM and of the NN approaches
+Compute dE/do_i for a NN (the same seen in class) showing the single steps of the derivation for the dE/do_i (assuming to have already delta for the units of the other layers indexed by h and k. Finally, write delta_k, delta_t, delta_i
+- Define the VC-dim. Does the VC-dim in Phi_1 increase or decrease if the value of the regularization parameter increases? Explain.
+------------------------------
+1.
+- Write the net_t(x) of a preceptron with inputs i in [1, ..., k]  
+- Write the radial basis function kernel
+
+2. Answer true or false to the following and motivate your answer  
+- In a SVM can the alpha values help to select the best features? False (they only select some input patterns and not the components)  
+- To estimate the (future) predictive capability of your model is it a good practice to consider the result and accuracy obtained by the model selection pahse without looking to the training results? True  
+- Increasing the VC-dim, th VC-bound on the risk R (according to SLT) increases. True
+
+3. Write the derivation of the bias-variance decomposition (assuming without proving the variance lemma)
+
+4. Show a picture of:  
+- undercomplete autoencoder  
+- overcomplete autoencoder
+
+</details>
 
 
 ## MOBILE AND CYBER-PHYSICAL SYSTEMS
@@ -99,6 +185,8 @@ Collection of oral questions and exam material
 
 
 ## PARALLEL AND DISTRIBUTED SYSTEMS: PARADIGMS AND MODELS
+:it: _La maggior parte dell'orale verte sul progetto e molte delle domande di teoria sono collegate._
+
 <details>
   <summary>:it: 2018-19</summary>
   
@@ -125,6 +213,9 @@ Se tolgo la map e lascio la farm aumentando i worker cambia qualcosa? L’effici
 - Macro data flow, con un esempio di conversione fra  "farm(pipe(f1,f2))", chiedendo di disegnare il grafico
 
 </details>
+
+
+:us: _Most of the oral exam focuses on the project and many of the theory questions are related._
 
 <details>
   <summary>:us: 2018-19</summary>
