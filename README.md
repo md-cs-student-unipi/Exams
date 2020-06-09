@@ -177,6 +177,10 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 - undercomplete autoencoder  
 - overcomplete autoencoder
 
+5. Equation of the RBF Kernel. Equation of the Loss for Ridge regression + comments on the role of lambda.
+
+6. Equations used for SOM. Why is the Neural Network able to approximate every function? Why do we use deep learning if one layer is enough?
+
 </details>
 
 
