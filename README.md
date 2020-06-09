@@ -118,7 +118,18 @@ Other questions
 
 
 ## DATA MINING
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+
+<details>
+  <summary>:us: Before 2020</summary>
+
+-  Differences between Apriori and FP-Grow. Hierarchical Transactional clustering  -> Rock and differences with classic hierarchical clustering. MLE: expectation phase and maximization Phase, comparison with the same phases in KMeans
+
+- two questions about FP-Grow.
+
+- fp-growth; the difference between different kinds of clustering algorithms.
+
+</details>
+
 
 
 ## FOUNDATION OF COMPUTING
