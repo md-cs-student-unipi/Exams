@@ -203,6 +203,15 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 :it: _La maggior parte dell'orale verte sul progetto e molte delle domande di teoria sono collegate._
 
 <details>
+    <summary>:it: 2019-20</summary>
+  - Macro Data Flow con esempio
+  - Buildin blocks per streming e data. 
+  - Point to point e collective comunication in fast flow. Qunado serve collective comunication.
+  - Service time, latency, efficiency più esempi su quando voglio ottimizzare cosa
+ 
+ </details>
+
+<details>
   <summary>:it: 2018-19</summary>
   
 - Perchè non hai usato un manager e hai fatto fare tutto all’emitter? Con il manager hai dei movimenti di dati in più? L’emitter ha qualche guadagno se c’è il manager?
