@@ -204,12 +204,16 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 
 <details>
     <summary>:it: 2019-20</summary>
+  
   - Macro Data Flow con esempio
+  
   - Buildin blocks per streming e data. 
+  
   - Point to point e collective comunication in fast flow. Qunado serve collective comunication.
+  
   - Service time, latency, efficiency più esempi su quando voglio ottimizzare cosa
  
- </details>
+</details>
 
 <details>
   <summary>:it: 2018-19</summary>
@@ -240,6 +244,19 @@ Se tolgo la map e lascio la farm aumentando i worker cambia qualcosa? L’effici
 
 
 :us: _Most of the oral exam focuses on the project and many of the theory questions are related._
+
+<details>
+    <summary>:us: 2019-20</summary>
+  
+  - Macro Data Flow with examples
+  
+  - Buildin blocks for streming and data. 
+  
+  - Point to point and collective comunication in fast flow. When to use collective comunication.
+  
+  - Service time, latency, efficiency and example where to use what metrics.
+ 
+</details>
 
 <details>
   <summary>:us: 2018-19</summary>
