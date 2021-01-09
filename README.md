@@ -149,7 +149,14 @@ Other questions
 
 
 ## INFORMATION RETRIEVAL
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+
+<details>
+  <summary>:us: 2020-21</summary>
+
+  - Zsynch (exercise like in written exams, but explaining your thoughts while writing)
+  - Delta compression (zdelta)
+    - Delta compression for groups of files (the one with the graph)
+</details>
 
 
 ## INTELLIGENT SYSTEMS FOR PATTERN RECOGNITION
@@ -204,20 +211,20 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 
 <details>
     <summary>:it: 2019-20</summary>
-  
+
   - Macro Data Flow con esempio
-  
-  - Buildin blocks per streming e data. 
-  
+
+  - Buildin blocks per streming e data.
+
   - Point to point e collective comunication in fast flow. Qunado serve collective comunication.
-  
+
   - Service time, latency, efficiency più esempi su quando voglio ottimizzare cosa
- 
+
 </details>
 
 <details>
   <summary>:it: 2018-19</summary>
-  
+
 - Perchè non hai usato un manager e hai fatto fare tutto all’emitter? Con il manager hai dei movimenti di dati in più? L’emitter ha qualche guadagno se c’è il manager?
 - Perchè parti subito con un numero fissato di worker? Non sarebbe stato meglio farlo lavorare uno e poi capire quanti worker servono dinamicamente?
 - Sarebbe stato giusto fare un’analisi del tempo che ci metto per fare uno switch del numero di worker in modo da capire ogni quanto cambiare
@@ -247,15 +254,15 @@ Se tolgo la map e lascio la farm aumentando i worker cambia qualcosa? L’effici
 
 <details>
     <summary>:us: 2019-20</summary>
-  
+
   - Macro Data Flow with examples
-  
-  - Buildin blocks for streming and data. 
-  
+
+  - Buildin blocks for streming and data.
+
   - Point to point and collective comunication in fast flow. When to use collective comunication.
-  
+
   - Service time, latency, efficiency and example where to use what metrics.
- 
+
 </details>
 
 <details>
