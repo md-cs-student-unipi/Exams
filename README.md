@@ -153,6 +153,9 @@ Other questions
 <details>
   <summary>:us: 2020-21</summary>
 
+  - Compression of WebGraph, meaning of "near pages", how to optimize the saving of the "extra nodes"
+  - Karp-Rabin fingerprints, properties, proof
+  - Pearson's Chi-Square test. Meaning of the tables used in this test
   - Zsynch (exercise like in written exams, but explaining your thoughts while writing)
   - Delta compression (zdelta)
     - Delta compression for groups of files (the one with the graph)
