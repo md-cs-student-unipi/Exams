@@ -189,7 +189,7 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 
 2. Answer true or false to the following and motivate your answer  
 - In a SVM can the alpha values help to select the best features? False (they only select some input patterns and not the components)  
-- To estimate the (future) predictive capability of your model is it a good practice to consider the result and accuracy obtained by the model selection pahse without looking to the training results? True  
+- To estimate the (future) predictive capability of your model is it a good practice to consider the result and accuracy obtained by the model selection phase without looking to the training results? False (only the test result cares to estimate the (future) predictive capability)
 - Increasing the VC-dim, th VC-bound on the risk R (according to SLT) increases. True
 
 3. Write the derivation of the bias-variance decomposition (assuming without proving the variance lemma)
