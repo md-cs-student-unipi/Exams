@@ -176,6 +176,15 @@ Other questions
 
 ## MACHINE LEARNING
 <details>
+  <summary>:us: 2020-21</summary>
+
+  - List all the differences between SVM and NN (without actually explaining _what_ they are)
+  - Explain why SOMs are better than K-Means
+  - RBF kernel (especially from the point of view of the LBE)
+  - Approximation theorem of NNs
+
+</details>
+<details>
   <summary>:us: 2019-20</summary>
 
 - Write the loss for a linear model in form of ridge regression (with Tikhonov regularization)
