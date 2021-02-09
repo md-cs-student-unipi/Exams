@@ -305,7 +305,11 @@ If I remove the map and leave the farm increasing the workers does something cha
 
 
 ## ROBOTICS
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+- Architectures for robot behavior described by the three primitive functions
+- Motion control with gravity compensation (robot control)
+- Potential fields (robot navigation)
+- Histograms of an image (robot vision)
+- ZMP components (bipedal locomotion)
 
 
 ## SCIENTIFIC AND LARGE DATA VISUALIZATION
