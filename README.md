@@ -126,6 +126,8 @@ Other questions
 + lz77
 + p-for-delta
 
+</details>
+  
 ## ARTIFICIAL INTELLIGENCE FUNDAMENTALS
 - Be the first to contribute, open a pull request with your material!
 
