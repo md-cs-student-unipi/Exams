@@ -90,9 +90,44 @@ Other questions
 
 
 ## ALGORITHM ENGINEERING
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+<details>
+  <summary>:it: Jan 2021</summary>
+  
++ mi sa parlare del bloom filter? qual'è l'errore ottimo che si fa quando si considerano le funzioni? 
++ cos'è un ternary search tree?
++ dimostrazione lower bound permuting
++ cooko-hasing: celle vuote + piene : c'è un modo per compattare in maniera efficiente per usare i vetori binari rank and select?
 
+---
 
++ cos'è una classe di funzioni hash universali? dove ci serve?
++ algoritmo che fa un campionamento da uno stream di un elemento su n elementi. idea della dimostrazione per il caso di m elementi invece che 1
++ three-way partition: vantaggio rispetto ai classici metodi che usano le partizioni in due
++ definizione di minimal order perfect hashing
++ huffman: lunghezza in media di un codeword e in quale range, entropia
++ se ho un vettore ordinato di key e voglio estrarre la chiave k-esima accedo a k, e se non è ordinato come faccio ad accedere alla k-esima?
+
+---
+
++ definisci il bloom filter
++ example of universal hash function + dimostrazione that it is an UHF
++ instead of using arithm. coding., how can i improve the extra bit of huffman?
++ define the treap. how do you search for a key in a treap?
+
+---
+
++ treap: how do you solve split and merge operations? build a treap of logarithmic height: the way to build the treap balanced. prove that in this way the average height is logarithmic
++ what is a suffix array?
++ do you know elias-fano?
+
+---
+
++ come venivano trovate le copie più lunghe di elias-fano?
++ lz77
++ p-for-delta
+
+</details>
+  
 ## ARTIFICIAL INTELLIGENCE FUNDAMENTALS
 - Be the first to contribute, open a pull request with your material!
 
