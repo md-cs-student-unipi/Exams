@@ -282,6 +282,15 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 :it: _La maggior parte dell'orale verte sul progetto e molte delle domande di teoria sono collegate._
 
 <details>
+  <summary>:it: 2020-21</summary>
+  - Map fusion, differenze tra regola di equivalenza `comp(map(f), map(g)) == map(comp(f, g))` e `pipe(map(f), map(g)) == map(comp(f, g))`. Quante risorse si impiegano in ciascun caso?
+  - Che cos'è la vettorizzazione e com'è implementata a livello hardware?
+  ------------------------------
+  - A quali condizioni posso implementare la vettorizzazione? Se ho una chiamata di libreria all'interno del corpo del for e forzo la vettorizzazione (es. con un `pragma`) cosa succede? E se ho iterazioni dipendenti e forzo la vettorizzazione?
+  - Autonomic management della farm. Come si può implementare autonomic management in FastFlow? Posso implementare `farmout(pipe(s1, s2, s3))` a runtime in FastFlow? (No) Cambierebbe qualcosa se la libreria non fosse header-based ma fosse in un file `.so`? (No perché dipende dalle API di FastFlow)
+</details>
+
+<details>
     <summary>:it: 2019-20</summary>
 
   - Macro Data Flow con esempio
@@ -323,6 +332,15 @@ Se tolgo la map e lascio la farm aumentando i worker cambia qualcosa? L’effici
 
 
 :us: _Most of the oral exam focuses on the project and many of the theory questions are related._
+
+<details>
+  <summary>:us: 2020-21</summary>
+  - Map fusion, difference between equivalence rules `comp(map(f), map(g)) == map(comp(f, g))` and `pipe(map(f), map(g)) == map(comp(f, g))`. How many resources are needed for each of those cases?
+  - What's vectorization and how is it implemented?
+  ------------------------------
+  - Under what conditions can I implement vectorization? If I have a library call inside the for body and force vectorization (e.g. with a `pragma`) what happens? What if I have dependent iterations and force vectorization?
+  - Autonomic farm management. How can I implement autonomic management in FastFlow? Can I implement `farmout(pipe(s1, s2, s3))` at runtime in FastFlow? (No) Would it change anything if the library was not header-based but was in a `.so` file? (No because it depends on the FastFlow API)
+</details>
 
 <details>
     <summary>:us: 2019-20</summary>
