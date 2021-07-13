@@ -11,8 +11,94 @@ Collection of oral questions and exam material
 
 
 ## ADVANCED DATABASES
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+<details>
+  
+  <summary>:it: 2020-21</summary>
+  
+  - Perché un indice multidimensionale è più efficiente di un indice combinato su 2 dimensioni per query spaziali?
+  
+  - Che cosa sono gli istogrammi e a che cosa servono nei RDBMS?
+  
+  - Quali vantaggi e svantaggi ha l'organizzazione sequenziale?
+  
+  - Parlare di 2-Phase Commit: come viene gestita dal coordinatore la mancata ricezione di un messaggio? Cosa presume? Qual è il problema principale di questo protocollo? (Se il coordinatore fallisce dopo aver ricevuto un ready da parte di un partecipante)
+  
+  - Descrivere l'indice combinato (multi-attributo)
+  
+  - Parlare di 2-Phase Lock
+  
+  - Che cos'è una phantom lock?
+  
+  - Perché nel G-tree uno dei 2 alberi non è memorizzato su disco?
+  
+  - A che cosa serve avere lock multigranularità?
+  
+  - Parlare delle tecniche di hashing dinamico. Qual è il problema del linear hash?
+  
+  - Perché la nozione di "riconciliazione" di un valore è propria dei sistemi NoSQL e non dei DBMS tradizionali?
+  
+  - In quali situazioni ha senso usare un sistema NoSQL?
+  
+  - Qual è la differenza tra la progettazione dello schema concettuale di un database e quello di una data warehouse?
+  
+  - In un database distribuito, come posso gestire la consistenza distribuita?
+  
+  - In un columnar database, come sono memorizzate le colonne su disco? Il modo di memorizzare i dati su una singola pagina è rilevante a questi fini?
+  
+  - Quali similitudini e differenze ci sono tra un sistema parallelo con architettura shared-nothing e un sistema distribuito?
+  
+  - Perché si usa la formula di Cardenas? Quando ha senso approssimarla con il minimo?
+  
+  - Qual è il momento critico del protocollo 2-Phase Commit? Se il coordinatore muore proprio in questo momento, i partecipanti si scambiano messaggi tra di loro: cosa possono fare? nel caso in cui dovessero eleggere un nuovo coordinatore, che problema si può verificare? (Che il vecchio coordinatore torni online durante l'elezione di quello nuovo)
+  
+  - Nella progettazione di un database distribuito, cos'è la progettazione della distribuzione dei dati? E la progettazione dell'allocazione dei dati?
+  
+  - Perchè la scelta di default per la creazione di tabelle è heap file + indici?
+</details>
 
+<details>
+  <summary>:us: 2020-21</summary>
+  
+  - Why a multidimensional index is more efficient than a combined index on the 2 dimensions?
+  
+  - What are histograms and why are they needed in RDBMS?
+  
+  - What are advantages and disadvantages of the sequential organization?
+  
+  - Explain 2-Phase Commit: how the coordinator handles a failure receiving a message? What does it assume? What is the main issue with this protocol?
+  
+  - Describe the combined (multi-attribute) index
+  
+  - Explain the 2-Phase Lock protocol
+  
+  - What's a Phantom Lock?
+  
+  - Why one of the two trees used in the G-tree is not stored on disk?
+  
+  - Why RDBMS use multi-granularity locks?
+  
+  - Talk about dynamic hashing. What's the main problem with linear hash?
+  
+  - Why the notion of "reconciliation" is associated to NoSQL systems and not RDBMSs?
+  
+  - In what scenarios we may choose a NoSQL system?
+  
+  - What's the difference between conceptual schema planning in a traditional database and in a data warehouse?
+  
+  - In a distributed database, how can we manage distributed consistency?
+  
+  - In columnar databases, how the columns are actually stored on disk? The way in wich we store the values inside the columns is actually important? Why? What we try to optimize with columnar DBs?
+  
+  - What are the similarities and differences between shared-nothing parallel architectuure and distributed architecture?
+  
+  - Why do we introduced the Cardenas formula? When can we simply approximate it with min?
+  
+  - What's the critical phase of 2-Phase Commit? If the coordinator dies exactly during this phase, how the participants can interact each other to try and continue? If they try and elect a new coordinator, what are the problems? (The old coordinator may restart during the election of the new one)
+  
+  - In distributed databases, what's data distribution design? And what's data allocation design?
+  
+  - Why the default choice for database tables is the heap organization?
+</details>
 
 ## ADVANCED PROGRAMMING
 <details>
@@ -283,12 +369,16 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 
 <details>
   <summary>:it: 2020-21</summary>
-  - Map fusion, differenze tra regola di equivalenza `comp(map(f), map(g)) == map(comp(f, g))` e `pipe(map(f), map(g)) == map(comp(f, g))`. Quante risorse si impiegano in ciascun caso?
-  - Che cos'è la vettorizzazione e com'è implementata a livello hardware?
-  ------------------------------
-  - A quali condizioni posso implementare la vettorizzazione? Se ho una chiamata di libreria all'interno del corpo del for e forzo la vettorizzazione (es. con un `pragma`) cosa succede? E se ho iterazioni dipendenti e forzo la vettorizzazione?
-  - Autonomic management della farm. Come si può implementare autonomic management in FastFlow? Posso implementare `farmout(pipe(s1, s2, s3))` a runtime in FastFlow? (No) Cambierebbe qualcosa se la libreria non fosse header-based ma fosse in un file `.so`? (No perché dipende dalle API di FastFlow)
-</details>
+  
+    - Map fusion, differenze tra regola di equivalenza `comp(map(f), map(g)) == map(comp(f, g))` e `pipe(map(f), map(g)) == map(comp(f, g))`. Quante risorse si impiegano in ciascun caso?
+
+    - Che cos'è la vettorizzazione e com'è implementata a livello hardware?
+
+    - A quali condizioni posso implementare la vettorizzazione? Se ho una chiamata di libreria all'interno del corpo del for e forzo la vettorizzazione (es. con un `pragma`) cosa succede? (Dipende dalla funzione) E se ho iterazioni dipendenti e forzo la vettorizzazione? (Errore)
+
+    - Autonomic management della farm. Come si può implementare autonomic management in FastFlow? Posso implementare `farmout(pipe(s1, s2, s3))` a runtime in FastFlow? (No) Cambierebbe qualcosa se la libreria non fosse header-based ma fosse in un file `.so`? (No perché dipende dalle API di FastFlow)
+
+  </details>
 
 <details>
     <summary>:it: 2019-20</summary>
@@ -335,11 +425,15 @@ Se tolgo la map e lascio la farm aumentando i worker cambia qualcosa? L’effici
 
 <details>
   <summary>:us: 2020-21</summary>
+    
   - Map fusion, difference between equivalence rules `comp(map(f), map(g)) == map(comp(f, g))` and `pipe(map(f), map(g)) == map(comp(f, g))`. How many resources are needed for each of those cases?
+    
   - What's vectorization and how is it implemented?
-  ------------------------------
+    
   - Under what conditions can I implement vectorization? If I have a library call inside the for body and force vectorization (e.g. with a `pragma`) what happens? What if I have dependent iterations and force vectorization?
+    
   - Autonomic farm management. How can I implement autonomic management in FastFlow? Can I implement `farmout(pipe(s1, s2, s3))` at runtime in FastFlow? (No) Would it change anything if the library was not header-based but was in a `.so` file? (No because it depends on the FastFlow API)
+ 
 </details>
 
 <details>
