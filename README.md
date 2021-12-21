@@ -211,6 +211,13 @@ Other questions
 ## INFORMATION RETRIEVAL
 
 <details>
+  <summary>:us: 2021-22</summary>
+  
+  - Talk about the web graph: explain the "bow tie" picture, and the three properties of a web graph
+  - How do we map urls to integers to represent the uncompressed adjacency list?
+  - Where and how we exploit locality and similarity properties in the uncompressed adjacency list representation of the web graph?
+  - Explain how we can simplify cosine similarity when comparing two vectors
+  - Where and how we use the Karp Rabin fingerprint in the min-hashing technique
   <summary>:us: 2020-21</summary>
 
   - Compression of WebGraph, meaning of "near pages", how to optimize the saving of the "extra nodes"
