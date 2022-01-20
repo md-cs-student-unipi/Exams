@@ -215,7 +215,21 @@ Other questions
 </details>
   
 ## ARTIFICIAL INTELLIGENCE FUNDAMENTALS
-- Be the first to contribute, open a pull request with your material!
+
+<details>
+  <summary>:us: 2021-22</summary>
+
+  - Talk about KR&R in general and its connection with classical logic. What is the problem of classical logic? (monotonicity)
+
+  - Talk about the CWA, definition. Is it always consistent? (Generalized CWA)
+
+  - What is a random variable?
+
+  - Given a set of random variables, write down the formula for the full joint distribution.
+
+  - Joint distribution of two variables. What is the probability when the two random variables are independent?
+
+</details>
 
 
 ## BIOINFORMATICS
