@@ -399,6 +399,12 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 
     - Autonomic management della farm. Come si può implementare autonomic management in FastFlow? Posso implementare `farmout(pipe(s1, s2, s3))` a runtime in FastFlow? (No) Cambierebbe qualcosa se la libreria non fosse header-based ma fosse in un file `.so`? (No perché dipende dalle API di FastFlow)
 
+    - Parlami del workspan model. Come lo implementeresti con la threadpool di async e future? (Un susseguirsi di chiamate .get() in base alle dipendenze di codice)
+
+    - Cos'è il cache coherency protocol e come si evita un sovra utilizzo (padding)
+
+    - Costruisci una pipeline con tre stadi e mostrami due pipeline equivalenti utilizzando le regole di riscrittura. Come cambiano le varie metriche nei casi mostrati?
+
   </details>
 
 <details>
