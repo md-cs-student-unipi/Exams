@@ -228,6 +228,225 @@ Other questions
   - Given a set of random variables, write down the formula for the full joint distribution.
 
   - Joint distribution of two variables. What is the probability when the two random variables are independent?
+  
+  - Talk about non monotonic reasoning
+
+  - Which problems does it cause? Define it in a formal way (written). Is ordinary logic monotonic?
+
+  - What about default logic?
+
+  - Definition of CWA.
+
+  - How is it used for defaults?
+
+  - Talk about the main limits of FOL?
+
+  - Example of contradiction induced by non monotonic representations.
+
+  - Example of non monotonic reasoning.
+
+  - What is the fundamental tradeoff of KR?
+
+  - Compare FOL and description logic.
+
+  - Can all FOL formulas be translated into Horn Clauses?
+
+  - Definition of Horn Clause.
+
+  - Is description logic decidable?
+
+  - Il PDDL a restriction of FOL?
+
+  - Fast Thinking and slow thinking
+
+  - Advantages of using KR wrt to Machine Learning
+
+  - Problem in representing propositional attitudes in classical logic.
+
+  - Special semantics available in modal logic.
+
+  - How does it handle non monotonic reasoning issues?
+
+  - Different dimensions of complexity to be  considered(wrt to agents). What can affect complexity?
+
+  - Extremes of the fundamental tradeoff of KR.
+
+  - Differences in expressivity between different logics. Limits in FOL.
+
+  - What is a semantic network?
+
+  - Typical inference of a semantic network.
+
+  - Is the inheritance mechanism modeled is any kind of logic?
+
+  - What is a computational agent?
+
+  - What are CSPs? (Formal definition)
+
+  - What is the problem induction technique?
+
+  - General complexity of CSP solution search.
+
+  - Topology of CSP graphs? How to enforce properties to achieve efficiency? (DAC etc..)
+
+  - Frame Systems.
+
+  - Satisfiability of a FOL KR. Is this problem decidable?
+
+  - Local search algorithms.
+
+  - Specificities of description logic.
+
+  - What are concepts? What are roules?
+
+  - Typical problem of description logic.
+
+  - How to model uncertainty in AI? What tool can we use?
+
+  - Why is a specific language needed to "do" planning?
+
+  - What is a random variable in probability theory? Make an example.
+
+  - Definition of product rule with an example with two variables (written).
+
+  - What if the two variables were independent?
+
+  - Compare Forward reasoning and backward reasoning.
+
+  - What is PROLOG? What is it used for?
+
+  - Describe the usage of the !CUT operator.
+
+  - Definition of full joint probability.
+
+  - What are belief networks? What is represented by nodes and edges?
+
+  - Given a problem, are there many ways to represent it, or just once?
+
+  - How to choose the best one? Are there any complexity tradeoffs?
+
+  - Definition of PDDL.
+
+  - Example (instance) of problem solvable using it.
+
+  - Bayes Theorem
+
+  - Viterbi Algorithm
+
+  - Why do we need to model uncertainty?
+
+  - Decision Theory vs Probability Theory
+
+  - Variable Elimination Algorithm
+
+  - Where is it used?
+
+  - Differences between prediction, filtering and smoothing.
+
+  - Basic axiom of probability (Kolgmogorv).
+
+  - What is a random variable? Make an example.
+
+  - Tradeoff between representation power and complexity of bayesian networks.
+
+  - How can topology impact complexity?
+
+  - What is PDDL, how does it work?
+
+  - What is a definite horn clause?
+
+  - Why do we need to “limit” to the usage of them?
+
+  - What is the probability full joint distribution? What is its usage?
+
+  - Why do we need more sophisticated algorithms?
+
+  - Graph planning algorithm. 
+
+  - What is prolog. Describe its main properties
+</details>
+<details>
+<summary>:it: Feb 2022</summary>
+  
+  - Perché l’autoepistemic Logic va contro la logica monotonica?
+  
+  - default logic
+  
+  - dpll 
+  
+  - ragionare sul frame problem
+  
+  - Differenza tra FOL e Description Logic
+  
+  - Cosa non può essere definito nella Description Logic mentre nella FOL si?
+  
+  - Come vengono definite le semantic network?
+  
+  - Cosa decide la complessità per un agente?
+  
+  - Cosa rende complesso un linguaggio rispetto un altro?
+  
+  - Le Logiche descrittive sono meno espressive della FOL, parlane
+  
+  -  Cosa possiamo dire con FOL e non in DL sì
+  
+  -  Quali sono i problemi decisionali tipici delle logiche descrittive
+  
+  -  Algoritmo sulla propagazione dei vincoli
+  
+  -    Consistenza di concetto
+  
+  -    Sussunzione
+  
+  -  L’ambito più importante delle logiche descrittive 
+  
+  -  Limiti espressivi della logica classica nel fare un qualsiasi ragionamento non monotono 
+  
+  - Vantaggi dei sistemi Rule Based e Logica Classica
+
+  - Che garanzie ci sono usando le clausole di Horn?
+
+  - Teorema di Bayes, che significa che ha un senso “diagnostico”?
+  
+  - Algoritmo di Viterbi, me lo puoi descrivere brevemente?
+
+  - Applicazione pratica del Viterbi Algo
+  
+  - Come si definisce una variabile randomica?
+
+  - Cos'è il PDDL?
+
+  - Quali altre tipologie di sistemi abbiamo visionato oltre CLIPS e Prolog riguardando i Ruled Based Systems?
+  
+  - Definizione di Polytree, in che contesto l’abbiamo introdotto
+  
+  - Perché è importante che la nostra rete sia un polytree
+
+  - Cosa intendiamo per Marginalizzazione
+
+  - Smoothing
+
+  - Graph Plan Algorithm
+  
+  - Prolog in livello dichiarativo e procedurale
+  
+  - CUT Operator
+  
+  - prob. condizionale e sulla product rule
+  
+  - Smoothing VS Prediction
+  
+  - Belief Network, cosa sono?
+  
+  - Dimostrazione del teorema di bayes a partire dalla product rule
+  
+  - Satplan cos’è? Perchè abbiamo bisogno di altri algoritmi se abbiamo già questo?
+  
+  - come è fatta una Bayesian Network
+  
+  - euristiche nel planning
+  
+  - Cos’è un production system? + esempio (CLIPS)
 
 </details>
 
