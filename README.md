@@ -549,7 +549,13 @@ Other questions
 
 
 ## INTELLIGENT SYSTEMS FOR PATTERN RECOGNITION
-- Be the first to contribute, open a pull request with your oral questions or other relevant material!
+<details>
+  <summary>2020-21</summary>
+
+- Markov Random Fields
+- Hidden Markov Models
+
+</details>
 
 
 ## LABORATORY FOR INNOVATIVE SOFTWARE
