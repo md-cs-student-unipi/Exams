@@ -267,7 +267,7 @@ Other questions
 
   - How does it handle non monotonic reasoning issues?
 
-  - Different dimensions of complexity to be  considered(wrt to agents). What can affect complexity?
+  - Different dimensions of complexity to be  considered(wrt to agents). What can affect complexity?
 
   - Extremes of the fundamental tradeoff of KR.
 
@@ -549,6 +549,35 @@ Other questions
 
 
 ## INTELLIGENT SYSTEMS FOR PATTERN RECOGNITION
+<details>
+  <summary>:it: 2021-22</summary>
+
+- Markov Random Fields
+- Hidden Markov Models
+- Hmm vs crf differenze
+- Probabilità condizionata
+- Q-learning cos’è e su cosa si basa 
+- Ancestral sampling cos’è?
+- HMM vs CRF differenze
+- come faccio il training in CRF 
+- Bootstraping vs monte carlo 
+- Le reti neurali hanno un problema, quale? (Gradient descent!)
+- Com’è fatta una LSTM in particolare la parte ricorrente 
+- Bellman expectation e Bellman optimality differenza 
+- ELBO 
+- SIFT
+- ARMA
+- Batch normalization 
+- Approcci value based vs policy based pro contro
+- Attention come si usa e come funziona
+- Attention vs Self-Attention
+- Bolzman machine 
+- d-separation
+- Neural turing machine
+- MSER maximally stable extremal regions
+- LDA
+
+</details>
 <details>
   <summary>2020-21</summary>
 
