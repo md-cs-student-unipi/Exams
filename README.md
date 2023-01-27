@@ -596,6 +596,18 @@ Other questions
 
 
 ## MACHINE LEARNING
+
+<details>
+  <summary>:us: 2022-23</summary>
+
+  - What is the linear basis expansion (phi) and where it appears
+  - Write the formula of the LBE for a Neural Network (the phi are learned)
+  - Covariance in cascade correlation
+  - What is dropout
+  - Where the regularization appears during the course 
+
+</details>
+
 <details>
   <summary>:us: 2020-21</summary>
 
