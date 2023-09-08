@@ -551,6 +551,7 @@ Other questions
 ## INTELLIGENT SYSTEMS FOR PATTERN RECOGNITION
 <details>
   <summary>:us: 2022-23</summary>
+  
   - Markov random fields and relation to factorisation to a directed model
   - RNN, gradient vanishing and gradient explosion
   - LSTMs with residual connections
@@ -668,12 +669,6 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 ## PARALLEL AND DISTRIBUTED SYSTEMS: PARADIGMS AND MODELS
 :it: _La maggior parte dell'orale verte sul progetto e molte delle domande di teoria sono collegate._
 
-<details>
-  <summary>:us: 2022-2023</summary>
-  - CAP theorem and CAP theorem with latency. How is latency related to consistency?
-  - Refactoring rules
-  - Model the speedup of a farm whose workers have a part of work to be executed in mutual exclusion and a part which is fully parallel.
-</details>
 
 <details>
   <summary>:it: 2020-21</summary>
@@ -736,6 +731,14 @@ Se tolgo la map e lascio la farm aumentando i worker cambia qualcosa? L’effici
 
 
 :us: _Most of the oral exam focuses on the project and many of the theory questions are related._
+
+<details>
+  <summary>:us: 2022-23</summary>
+  
+  - CAP theorem and CAP theorem with latency. How is latency related to consistency?
+  - Refactoring rules
+  - Model the speedup of a farm whose workers have a part of work to be executed in mutual exclusion and a part which is fully parallel.
+</details>
 
 <details>
   <summary>:us: 2020-21</summary>
