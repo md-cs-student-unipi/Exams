@@ -550,10 +550,9 @@ Other questions
 
 ## INTELLIGENT SYSTEMS FOR PATTERN RECOGNITION
 <details>
-  <summary>:en: 2022-23</summary>
-  - Markov random fields.
-  - Given a MRF, is the factorisation in its equivalent directed counterpart unique? And given a directed model, is the factorisation in MRF unique?
-  - RNN, gradient vanishing and gradient explosion.
+  <summary>:us: 2022-23</summary>
+  - Markov random fields and relation to factorisation to a directed model
+  - RNN, gradient vanishing and gradient explosion
   - LSTMs with residual connections
   - Diffusion models
   - GANs
@@ -670,7 +669,7 @@ Compute dE/do_i for a NN (the same seen in class) showing the single steps of th
 :it: _La maggior parte dell'orale verte sul progetto e molte delle domande di teoria sono collegate._
 
 <details>
-  <summary>:en: 2022-2023</summary>
+  <summary>:us: 2022-2023</summary>
   - CAP theorem and CAP theorem with latency. How is latency related to consistency?
   - Refactoring rules
   - Model the speedup of a farm whose workers have a part of work to be executed in mutual exclusion and a part which is fully parallel.
